@@ -1,8 +1,13 @@
 import Commandes as roverCommandes
+import obstacle
 
 # initialisation d'un rover à la position (0,0) et orienté vers le Nord
 monRover = roverCommandes.AllCommandes.RoverCommandes("N", 0, 0)
 print("Rover ("+ str(monRover.posX) +","+ str(monRover.posY) +") dirigé vers le : " + monRover.orientation)
+
+# TODO initalisation du ou des obstacles
+
+
                 # (0,0)     N
 tableau_des_actions = [
     "avancer",  # (0,1)     N
