@@ -44,3 +44,4 @@ for action in tableau_des_actions:
             exit()
     # on affiche à chaque fois la position du rover
     print("Rover ("+ str(monRover.posX) +","+ str(monRover.posY) +") dirigé vers le : " + monRover.orientation)
+
