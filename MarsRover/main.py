@@ -7,6 +7,7 @@ print("Rover ("+ str(monRover.posX) +","+ str(monRover.posY) +") dirigé vers le
 
 # TODO initalisation du ou des obstacles
 
+
                 # (0,0)     N
 tableau_des_actions = [
     "avancer",  # (0,1)     N
